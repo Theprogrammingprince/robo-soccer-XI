@@ -11,8 +11,8 @@ const CardList = ({Players}) =>{
                 key={i} 
                 id={Players[i].id} 
                 name={Players[i].name} 
-                club={Players[i].club}
-                position={Players[i].position}
+                username={Players[i].username}
+                email={Players[i].email}
                 />
                 );
             })
